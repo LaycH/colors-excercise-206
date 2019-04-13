@@ -78,13 +78,20 @@ it will switch to a new set of styles.*/
 
   #column-3 {
     background-color:#98e698;
+    width: 100%;
   }
 
   footer {
     background-color:#28a428 ;
   }
+
+  .col-3 {
+    width: 50%;
+  }
   
 }
+
+
 
 
 /*---------- Desktops ----------*/
@@ -106,10 +113,15 @@ it will switch to a new set of styles.*/
 
   #column-3 {
     background-color:#ff80ff;
+    width:33.3%;
   }
 
   footer {
     background-color:#1a001a;
+  }
+
+  .col-3 {
+    width:33.3%;
   }
    
 }
