@@ -15,6 +15,7 @@ html, body {
   margin: auto;
 }
 
+/*edited the styles so columns change colors on tablets and desktop.*/
 
 /*---------- HEADER ----------*/
 
@@ -51,57 +52,64 @@ header {
 footer {
   width: 100%;
   height: 30px;
-  background: #e3e3e3;
+  background:#46d246;
 }
 
 
 /*---------- TABLET ----------*/
-/* Change the background colors below */
+
+/*These media queries are saying that once
+the screen is at least 768px wide 
+(or the width of many tablets), 
+it will switch to a new set of styles.*/
 
 @media (min-width: 768px) {
   header {
-    background-color: ;
+    background-color: #0a290a;
   }
 
   #column-1 {
-    background-color: ;
+    background-color: #196719;
   }
 
   #column-2 {
-    background-color: ;
+    background-color:#46d246 ;
   }
 
   #column-3 {
-    background-color: ;
+    background-color:#98e698;
   }
 
   footer {
-    background-color: ;
+    background-color:#28a428 ;
   }
   
 }
 
 
 /*---------- Desktops ----------*/
+/* This says that once the screen is at least 1200px wide,
+ it will start using the desktop styles*/
+
 @media (min-width: 1200px) {
   header {
-    background-color: ;
+    background-color:#4d004d;
   }
 
   #column-1 {
-    background-color: ;
+    background-color:#b300b3;
   }
 
   #column-2 {
-    background-color: ;
+    background-color:#ff1aff;
   }
 
   #column-3 {
-    background-color: ;
+    background-color:#ff80ff;
   }
 
   footer {
-    background-color: ;
+    background-color:#1a001a;
   }
    
 }
